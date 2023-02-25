@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap');
+
 .nav{
     
     background-color: white;
@@ -119,7 +121,9 @@
 }
 
 .post p{
-    font-family: arial;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    size: 30px;
     
     
 }

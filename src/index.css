@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    
+    background-color: white;
+    border: 1px solid white;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: -1%;
+    margin-left: -1px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    
+}
+
+.logo{
+    height: 10vh;
+    
+
+}
+
+.nav .reallogo{
+    display: flex;
+    
+}
+
+.nav button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 15%;
+    right: 1%;
+}
+
+.nav button img{
+    height: 7vh;
+}
+
+.nav h1{
+    color: #FF4800;
+    font-family: arial;
+    margin-top: 23px;
+}
+
+/* footer */
+
+.footer{
+    background-color: #FF3F18;
+    border: 1px solid #FF3F18;
+    position: fixed;
+    width: 100%;
+    top: 92%;
+    height: 85px;
+    
+    
+}
+
+.footer button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.rcont{
+    background-color: #FF3F18;
+    width: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #FF3F18;
+    border-radius: 50%;
+    padding: 10px;
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.rcont img{
+    height: 5vh;
+
+}
+
+.footer h4{
+    color: white;
+    font-family: arial;
+    position: fixed;
+    top: 96%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+   
+}
+    
+    
+    
+    
+   
+    
+    
+
+
+.post img{
+    
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+.post p{
+    font-family: arial;
+    
+    
+}
+
+.post{
+    background-color: #EEEBEB;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #EEEBEB;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 600px) {
+    .container{
+        display: block;
+        margin-left: -20%;
+        width: 100%;
+        
+        
+    }
+
+    .post{
+        width: 80%;
+        
+        
+    }
+
+    .nav{
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .nav button{
+        padding-right: 30px;
+    }
+    
+}
